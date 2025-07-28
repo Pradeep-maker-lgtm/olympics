@@ -1,0 +1,19 @@
+{
+	"name": "olympics",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage3",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "olympics.json",
+				"fileSystem": "parameters"
+			}
+		},
+		"schema": {}
+	}
+}

@@ -5,12 +5,20 @@
 			"referenceName": "HttpServer1",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"p_rel_url": {
+				"type": "String"
+			}
+		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
 			"location": {
 				"type": "HttpServerLocation",
-				"relativeUrl": "Pradeep-maker-lgtm/olympics/blob/main/archive%20(1).zip"
+				"relativeUrl": {
+					"value": "@dataset().p_rel_url",
+					"type": "Expression"
+				}
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
