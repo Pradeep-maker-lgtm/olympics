@@ -1,0 +1,9 @@
+{
+	"name": "adfb33-tokyo",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6b646791-5a14-4416-bedf-9b43bf69d8bb",
+		"tenantId": "87429a4a-19c2-4dac-bd94-fe45ffd65a9f"
+	}
+}
